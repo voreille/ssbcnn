@@ -1,0 +1,8 @@
+numpy
+Click
+tensorflow_gpu==1.14.0
+sympy
+pandas
+scipy
+groupy
+scikit_learn
