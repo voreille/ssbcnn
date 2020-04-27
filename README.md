@@ -5,7 +5,7 @@ Implementation of the 3D Locally Rotation Invariant CNNs developed in "3D Solid 
 To obtain LRI, the first convolution of a 3D CNN can be replaced by one of the LRI variants: 
 - sse_conv3d and bispectrum_conv3d are defined in ./sh_networks_utils.py is obtained by calculating invariants in the form of Solid Spherical Energy (SSE) or Solid Spherical Bispectrum (SSB) from the response to convolutions with spherical harmonics.
 
-Example usage is provided on a basic synthetic texture dataset in ./synthetic_experiments/
+Example usage is provided on a basic synthetic texture dataset from ./synthetic_experiments/ in the notebook train.ipynb.
 
 
 # Installation and Requirements
